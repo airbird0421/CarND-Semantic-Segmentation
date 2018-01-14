@@ -1,0 +1,12 @@
+How to run:
+
+- To train: python main.py train
+	- after training, model will be saved in current directory
+
+- To do inference: python main.py infer
+	- There must be a saved model before running inference
+	
+- To work on a sample video: python main.py video
+	- There must be a saved model before processing the sample video. The sample video is ./data/project_video.mp4. After processing, the processed video will be saved as ./data/processed_video.mp4
+
+
